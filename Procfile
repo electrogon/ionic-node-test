@@ -1,1 +1,1 @@
-web: echo "Hello World!"
+web: node "/bin/www"
