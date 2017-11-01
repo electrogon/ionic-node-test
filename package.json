@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "postinstall": "echo '\n \n \n Runnning Post Install!!! \n \n \n'; cd ./ionic/ionic-test/; pwd; npm install; ionic build; cd ../..;"
+    "postinstall": "echo '\n \n \n Runnning Post Install!!! \n \n \n'; cd ./ionic/ionic-test/; pwd; npm install; npm i @ionic/app-scripts; ionic build; cd ../..;"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
