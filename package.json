@@ -17,5 +17,5 @@
     "@ionic/app-scripts":"*",
     "ionic":"*"
   },
-  "postinstall": "ionic-app-scripts --rootDir ./ionic/ionic-test/ build"
+  "postinstall": "echo '\n \n \n Runnning Post Install!!! \n \n \n'; ionic-app-scripts --rootDir ./ionic/ionic-test/ build"
 }
