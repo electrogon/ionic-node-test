@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "postinstall": "echo '\n \n \n Runnning Post Install!!! \n \n \n'; ionic-app-scripts --rootDir ./ionic/ionic-test/ build"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -16,6 +17,5 @@
     "serve-favicon": "~2.4.5",
     "@ionic/app-scripts":"*",
     "ionic":"*"
-  },
-  "postinstall": "echo '\n \n \n Runnning Post Install!!! \n \n \n'; ionic-app-scripts --rootDir ./ionic/ionic-test/ build"
+  }
 }
