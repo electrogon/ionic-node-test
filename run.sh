@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo '\n \n \n Runnning Post Install!!! \n \n \n'
 cd ./ionic/ionic-test/
 pwd
